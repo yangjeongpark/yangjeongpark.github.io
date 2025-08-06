@@ -3960,40 +3960,25 @@ input, select, textarea {
 		}
 
 
-/* OLD */
-.icon.alt:before {
-    background-color: #ffffff;
-    color: #242943;
-}
+
 /* NEW (inverted) */
 .icon.alt:before {
     background-color: #242943;   /* dark fill */
     color: #ffffff;              /* light glyph */
 }
-/* OLD */
-#header .logo strong {
-    background-color: #ffffff;
-    color: #242943;
-}
-/* NEW */
+
 #header .logo strong {
     background-color: #242943;
     color: #ffffff;
 }
-/* OLD */
-.button.primary,
-input[type="submit"].primary,
-button.primary {
-    background-color: #ffffff;
-    color: #242943;
-}
-/* NEW */
+
 .button.primary,
 input[type="submit"].primary,
 button.primary {
     background-color: #242943;
     color: #ffffff;
 }
+
 
 
 
