@@ -100,10 +100,6 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
-	}
-
-	body {
 		background: #ffffff;
 	}
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -171,9 +167,17 @@ input, select, textarea {
 			color: #53e3fb !important;
 		}
 
-	strong, b {
-		color: #ffffff;
+/* 	strong, b {
+		color: #242943;
 		font-weight: 600;
+	} */
+	strong, b {
+	  font-weight: 600;
+	  background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Your gradient colors */
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent; /* For WebKit browsers */
+	  background-clip: text; /* For modern browsers */
+	  color: transparent; /* Fallback for browsers that support background-clip */
 	}
 
 	em, i {
@@ -185,7 +189,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #242943;
 		font-weight: 600;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
@@ -3990,4 +3994,5 @@ button.primary {
     background-color: #242943;
     color: #ffffff;
 }
+
 
