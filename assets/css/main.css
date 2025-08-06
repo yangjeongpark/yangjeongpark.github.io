@@ -3388,7 +3388,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/pic01.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3994,5 +3994,6 @@ button.primary {
     background-color: #242943;
     color: #ffffff;
 }
+
 
 
