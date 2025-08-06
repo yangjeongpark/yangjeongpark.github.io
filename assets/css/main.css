@@ -102,10 +102,10 @@ input, select, textarea {
 	body {
 		background: #242943;
 	}
-
+/* 
 	body {
 		background: #ffffff;
-	}
+	} */
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #242943;
+		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
@@ -3961,21 +3961,21 @@ input, select, textarea {
     background-color: #ffffff;
     color: #242943;
 }
-/* NEW (inverted) */
+/* /* NEW (inverted) */
 .icon.alt:before {
     background-color: #242943;   /* dark fill */
     color: #ffffff;              /* light glyph */
-}
+} */
 /* OLD */
 #header .logo strong {
     background-color: #ffffff;
     color: #242943;
 }
-/* NEW */
+/* /* NEW */
 #header .logo strong {
     background-color: #242943;
     color: #ffffff;
-}
+} */
 /* OLD */
 .button.primary,
 input[type="submit"].primary,
@@ -3983,11 +3983,10 @@ button.primary {
     background-color: #ffffff;
     color: #242943;
 }
-/* NEW */
+/* /* NEW */
 .button.primary,
 input[type="submit"].primary,
 button.primary {
     background-color: #242943;
     color: #ffffff;
-}
-
+} */
