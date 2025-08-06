@@ -5,6 +5,7 @@
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -102,6 +103,9 @@ input, select, textarea {
 		background: #242943;
 	}
 
+	body {
+		background: #ffffff;
+	}
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -3950,3 +3954,39 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+/* OLD */
+.icon.alt:before {
+    background-color: #ffffff;
+    color: #242943;
+}
+/* NEW (inverted) */
+.icon.alt:before {
+    background-color: #242943;   /* dark fill */
+    color: #ffffff;              /* light glyph */
+}
+/* OLD */
+#header .logo strong {
+    background-color: #ffffff;
+    color: #242943;
+}
+/* NEW */
+#header .logo strong {
+    background-color: #242943;
+    color: #ffffff;
+}
+/* OLD */
+.button.primary,
+input[type="submit"].primary,
+button.primary {
+    background-color: #ffffff;
+    color: #242943;
+}
+/* NEW */
+.button.primary,
+input[type="submit"].primary,
+button.primary {
+    background-color: #242943;
+    color: #ffffff;
+}
