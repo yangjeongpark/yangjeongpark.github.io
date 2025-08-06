@@ -3597,7 +3597,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #e0e0e0;
 	}
 
 		#main > * {
@@ -3978,6 +3978,7 @@ button.primary {
     background-color: #242943;
     color: #ffffff;
 }
+
 
 
 
