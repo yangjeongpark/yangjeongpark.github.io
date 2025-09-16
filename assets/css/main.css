@@ -187,6 +187,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -302,6 +303,10 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+	.align-justify {
+		text-align: justify;
 	}
 
 /* Row */
@@ -2806,7 +2811,7 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: calc(100% / 3);
 		}
 
 			.tiles article .image {
@@ -2880,20 +2885,16 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
-			}
-
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
-			}
-
-			.tiles article:nth-child(6n - 4):before {
 				background-color: #8d82c4;
 			}
 
+			.tiles article:nth-child(6n - 4):before {
+				background-color: #87c5a4;
+			}
+
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #6fc3df;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
@@ -2905,7 +2906,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #ec8d81;
 			}
 
 		@media screen and (max-width: 1280px) {
