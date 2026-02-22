@@ -293,10 +293,10 @@ function AppContent() {
     const fetchContent = async () => {
       try {
         const [about, research, publications, posts] = await Promise.all([
-          fetch('/content/about.md').then(r => r.text()),
-          fetch('/content/research.md').then(r => r.text()),
-          fetch('/content/publications.md').then(r => r.text()),
-          fetch('/content/all_posts.md').then(r => r.text()),
+          fetch('content/about.md').then(r => r.text()),
+          fetch('content/research.md').then(r => r.text()),
+          fetch('content/publications.md').then(r => r.text()),
+          fetch('content/all_posts.md').then(r => r.text()),
         ]);
         setData({ about, research, publications, posts });
       } catch (error) {
