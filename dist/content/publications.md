@@ -2,8 +2,8 @@
 
 &dagger; equal contribution; * corresponding author
 
-26.  So Yeon Kim, Yang Jeong Park*, and Ju Li*. "**Leveraging neural network interatomic potentials for a foundation model of chemistry**". *arXiv*, under revision (2026).
-25.  Yang Jeong Park&dagger;, Jongbeom Kim&dagger;, Seung Un Lee, Jino Im*, Sungroh Yoon*, and Sang Il Seok*. "**Data-driven discovery of ammonium ions for post-treatment of perovskite solar cells via low-dimensional active learning**". under revision (2026).
+26.  So Yeon Kim, Yang Jeong Park*, and Ju Li*. "**Leveraging neural network interatomic potentials for a foundation model of chemistry**". *npj Computational Materials*, under revision (2026).
+25.  Yang Jeong Park&dagger;, Jongbeom Kim&dagger;, Seung Un Lee, Jino Im*, Sungroh Yoon*, and Sang Il Seok*. "**Data-driven discovery of ammonium ions for post-treatment of perovskite solar cells via low-dimensional active learning**". *Advanced Materials*, under revision (2026).
 24.  Yang Jeong Park&dagger;, Mayank Kumaran, Chia-Wei Hsu, Elsa A Olivetti*, Ju Li*. "**Contrastive Learning of Language-Material Multimodal Representation**". *Nature Communications*, under revision (2026).
 23.  Chia-Wei Hsu, Nien-Ti Tsou, Yu-Cheng Chen, Yang Jeong Park*, Ju Li*. "**Frankenstein Optimizer: Harnessing the Potential by Revisiting Optimization Tricks**". *arXiv*, preprinted (2025).
 22.  Maciej Tomczak&dagger;, Yang Jeong Park&dagger;*, Chia-Wei Hsu, Payden Brown, Dario Massa, Piotr Sankowski, Ju Li*, and Stefanos Papanikolaou*. "**Forecasting Research Trends using Knowledge Graphs and Large Language Models**". *Advanced Intelligent Systems*, Online Published (2025). [[DOI]](http://doi.org/10.1002/aisy.202401124)

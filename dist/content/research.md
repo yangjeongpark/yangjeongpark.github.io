@@ -1,37 +1,35 @@
 # Research
 
-**Our mission**
+## Bridging Computation, Automation, and Intelligence
 
-## Why should we study AI in materials science?
+For centuries, scientific progress has relied on a slow, sequential process of human intuition, theoretical modeling, and trial-and-error experimentation. As we tackle the incomprehensible complexity of modern scientific challenges—from designing next-generation materials to uncovering quantum phenomena—these fragmented approaches are no longer sufficient. 
 
-For decades, progress in materials science has relied heavily on experimental discovery and theoretical modeling. These traditional approaches, while powerful, are often time-intensive, resource-demanding, and limited in their ability to fully explore the vast chemical and structural design space of materials. The emergence of Artificial Intelligence (AI) and Machine Learning (ML) has introduced a transformative paradigm—one that can accelerate discovery, enhance predictive accuracy, and optimize material properties in ways that were previously unattainable.
+At the **Scientific AI Lab (SAIL)**, we do not view simulation, experimentation, and data analysis as isolated tasks. Instead, our mission is to build a **fully integrated, closed-loop discovery system**. We envision a paradigm where digital simulations are drastically accelerated, physical laboratory equipment is entirely automated, and a centralized Artificial Intelligence orchestrates this continuous cycle of learning and creation. 
 
-Over the last few years, AI-driven techniques have enabled breakthroughs by rapidly analyzing large-scale datasets, identifying complex correlations, and generating new hypotheses for material synthesis. This has given rise to data-centric research methodologies, where simulations, high-throughput experiments, and AI algorithms form a synergistic loop to guide material innovation.
+By seamlessly connecting the digital and physical realms, we aim to overcome the limitations of human scale and intuition. While our foundational applications lie in revolutionizing materials science, the methodologies we develop—spanning quantum computing to physics-informed AI—are designed to push the boundaries of broader scientific disciplines. 
 
-As we move into the era of data-driven materials design, the integration of AI is no longer optional—it is a necessity for staying at the forefront of technological development. In particular, AI can significantly reduce the cycle time between concept and realization, facilitate autonomous laboratories, and enable inverse design approaches, where desired properties lead directly to material candidates. This approach holds the potential to revolutionize not only fundamental materials discovery but also device fabrication and industrial-scale production.
-
-In this context, our research group is dedicated to developing AI methodologies specifically tailored for materials science, focusing on both predictive modeling and experimental automation. We aim to create AI models capable of handling complex, multi-dimensional datasets while respecting physical constraints and domain knowledge. Our key research directions include:
+Our core research is built upon three deeply interconnected pillars:
 
 ---
 
-### Accelerating Quantum Chemistry
+### Advanced Scientific Computing
 
-![Quantum Chemistry](images/quantum_low.png)
+![Advanced Scientific Computing](images/quantum_low.png)
 
-Quantum chemistry provides the fundamental understanding of materials behavior, which is crucial for designing new drugs, catalysts, and energy materials. However, traditional quantum chemical calculations are computationally expensive, limiting their application to relatively small systems or short timescales. Accelerating these calculations through innovative computational methods, particularly those leveraging artificial intelligence, can unlock new frontiers in chemical and materials science, enabling faster discovery and more accurate predictions.
-
----
-
-### Artificial Materials-aware Intelligence
-
-![Materials Intelligence](images/aware2.png)
-
-The traditional trial-and-error approach to materials discovery is often slow, expensive, and inefficient. The advent of big data, coupled with advances in machine learning and AI, offers a paradigm shift towards data-driven approaches. By systematically analyzing vast amounts of materials data, we can identify hidden patterns, predict properties of new materials, and significantly accelerate the design and synthesis of materials with desired functionalities for applications ranging from energy storage to catalysis and beyond.
+**The Digital Engine:** The foundation of our discovery loop begins with understanding the fundamental laws of nature. Traditional physical and chemical simulations are often bottlenecks due to their immense computational cost. We innovate the simulation tools themselves by leveraging next-generation computing architectures—including quantum computing—and AI-driven surrogate models. This enables us to rapidly map vast, multi-dimensional design spaces and generate high-fidelity digital data at speeds previously unattainable.
 
 ---
 
 ### Autonomous Laboratory
 
-![Autonomous Lab](images/lab_low.png)
+![Autonomous Laboratory](images/lab_low.png)
 
-The integration of robotics, artificial intelligence, and high-throughput experimentation is leading to the concept of the "Autonomous Lab" or "Self-Driving Laboratory." These systems can design experiments, execute them, analyze results, and decide on the next steps iteratively and with minimal human intervention. This approach promises to dramatically accelerate the pace of scientific discovery, particularly in materials science and chemistry, by enabling rapid exploration of vast parameter spaces.
+**The Physical Actuator:** Digital predictions must be validated and synthesized in the real world. We are pioneering the "Self-Driving Laboratory," where high-throughput robotics and automated experimental platforms replace manual, repetitive labor. These systems are designed to autonomously execute complex syntheses, characterizations, and analyses. Acting as the physical extension of our digital engine, the autonomous lab continuously feeds real-world, empirical ground-truth data back into our computational models.
+
+---
+
+### AI for Materials Science
+
+![AI for Materials Science](images/aware2.png)
+
+**The Central Brain:** Bridging the gap between Advanced Computing and the Autonomous Lab is our domain-specific Artificial Intelligence. This AI does not merely analyze data; it actively commands the discovery process. By learning from both ultra-fast digital simulations and automated physical experiments, our AI identifies hidden physical constraints, generates novel hypotheses, and makes real-time decisions on which experiment the autonomous lab should perform next. Through this inverse design approach, the AI drives the entire loop to swiftly discover optimal materials and next-generation scientific solutions.
